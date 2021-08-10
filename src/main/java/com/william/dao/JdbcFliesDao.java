@@ -1,8 +1,6 @@
 package com.william.dao;
 
 import com.william.model.Flies;
-import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.jdbc.SQLWarningException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 

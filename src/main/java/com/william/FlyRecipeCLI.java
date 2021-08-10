@@ -5,7 +5,7 @@ import com.william.model.Flies;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
-import java.sql.SQLOutput;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -289,8 +289,6 @@ public class FlyRecipeCLI {
         System.out.println("1: View All Flies");
         System.out.println("2: View Fly Detail");
         System.out.println("3: Modify a Fly");
-//        System.out.println("4: Update a Fly");
-//        System.out.println("5: Remove a Fly");
         System.out.println("0: Exit");
         System.out.print("Select an option >> ");
     }
